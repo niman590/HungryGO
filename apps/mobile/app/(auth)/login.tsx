@@ -135,6 +135,8 @@ export default function LoginScreen() {
       email,
       password,
     });
+
+    router.replace('/home');
   };
 
   const handleForgotPassword = () => {
