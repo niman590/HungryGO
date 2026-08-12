@@ -1,0 +1,96 @@
+# ==============================
+# HungryGO Common .gitignore
+# ==============================
+
+# Dependencies
+node_modules/
+
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ==============================
+# Expo / React Native
+# ==============================
+
+.expo/
+.expo-shared/
+dist/
+web-build/
+
+# Expo generated native projects
+apps/mobile/android/
+apps/mobile/ios/
+
+# EAS local/cache files
+.eas/
+
+# Metro
+.metro-health-check*
+
+# ==============================
+# NestJS / Backend
+# ==============================
+
+dist/
+coverage/
+*.tsbuildinfo
+
+# ==============================
+# Testing
+# ==============================
+
+coverage/
+.nyc_output/
+
+# ==============================
+# IDE / Editors
+# ==============================
+
+.vscode/
+.idea/
+
+# ==============================
+# Operating System
+# ==============================
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==============================
+# Temporary files
+# ==============================
+
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# ==============================
+# Certificates / Keys
+# ==============================
+
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+
+# ==============================
+# Build / Cache
+# ==============================
+
+.cache/
+.parcel-cache/
+.turbo/
+.nx/
